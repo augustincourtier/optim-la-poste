@@ -66,7 +66,7 @@ v [identificateur] [latitude] [longitude]
 s [latitude] [longitude]
 o [valeur objectif]
 """
-for line in open(sys.argv[1],  'r'):
+for line in open(sys.argv[1], 'r'):
     if line[0] == "v":
         tab = line.split()
         identficateur = int(tab[1])
