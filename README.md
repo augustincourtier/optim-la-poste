@@ -10,3 +10,6 @@ Devoir maison numéro 2 – Février 2017
 
 ### Fichier Zimpl
 Pour la résolution du problème, les explications sont dans les commentaires du document `main.zpl`.
+
+### EDIT
+Les latitudes et les longitudes étaient en fait inversées dans le document manv.txt, nous avons donc reconduit la résolution. Finalement, nous obtenons 13 postes pour l'île de Man grâce à cette résolution. 

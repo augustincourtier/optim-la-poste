@@ -1,5 +1,5 @@
 from math import *
-from resources.manp import searched_posts_1
+from manp import searched_posts_1
 
 
 def distance(position, post):
@@ -27,8 +27,8 @@ position_dict = {}
 for position in split_lines:
     if position[1] not in position_dict.keys():
         position_dict[position[1]] = {}
-        position_dict[position[1]]["longitude"] = position[2]
-        position_dict[position[1]]["latitude"] = position[3]
+        position_dict[position[1]]["longitude"] = position[3]
+        position_dict[position[1]]["latitude"] = position[2]
 
 distances = []
 for position in split_lines:
