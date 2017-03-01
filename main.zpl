@@ -31,7 +31,7 @@ subto assign:
 
 # If a post is open then it has at least one client
 subto build:
-	forall <i, p> in INHABITANTS cross POSTS :
+	forall <i> in INHABITANTS :
 		forall <p> in POSTS : client[i,p] <= open[p];
 
 # Open the first posts
